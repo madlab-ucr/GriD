@@ -12,6 +12,8 @@ Each of the files is a Comma Separated Values (CSV) file with two columns:
 - `Data`: The text of the snippet.
 - `Label`: The label of the snippet, where `0` indicates that the snippet is human-written and `1` indicates that the snippet is GPT-generated.
 
+Please refer to the paper for more details on how the dataset was collected and processed.
+
 ## Running GpTen
 
 The code for our method, GpTen, is available in the [`pipeline.py`](/pipeline.py) script. The required Python packages and versions can be found in the [`requirements.txt`](/requirements.txt) file.
